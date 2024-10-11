@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/
+Disallow: /css/
+Disallow: /js/
+Sitemap: https://blog.btwoa.com/sitemap.xml
