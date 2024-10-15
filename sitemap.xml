@@ -209,7 +209,7 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/en/other.json</loc>
+    <loc>https://blog.btwoa.com/en/twikoo.json</loc>
     
     <lastmod>2024-06-11</lastmod>
     
@@ -218,7 +218,7 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/en/twikoo.json</loc>
+    <loc>https://blog.btwoa.com/en/other.json</loc>
     
     <lastmod>2024-06-11</lastmod>
     
@@ -599,20 +599,6 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/en/tags/Github-Pages/</loc>
-    <lastmod>2024-10-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.btwoa.com/en/tags/Apollo/</loc>
-    <lastmod>2024-10-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.btwoa.com/en/tags/Warning/</loc>
     <lastmod>2024-10-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -621,6 +607,20 @@
   
   <url>
     <loc>https://blog.btwoa.com/en/tags/Error/</loc>
+    <lastmod>2024-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.btwoa.com/en/tags/Github-Pages/</loc>
+    <lastmod>2024-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.btwoa.com/en/tags/Apollo/</loc>
     <lastmod>2024-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -641,13 +641,6 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/en/tags/HackTheGame/</loc>
-    <lastmod>2024-10-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.btwoa.com/en/tags/Coding/</loc>
     <lastmod>2024-10-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -662,7 +655,21 @@
   </url>
   
   <url>
+    <loc>https://blog.btwoa.com/en/tags/HackTheGame/</loc>
+    <lastmod>2024-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.btwoa.com/en/tags/Injection/</loc>
+    <lastmod>2024-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.btwoa.com/en/tags/Regex/</loc>
     <lastmod>2024-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -683,13 +690,6 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/en/tags/Regex/</loc>
-    <lastmod>2024-10-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.btwoa.com/en/tags/JetBrains/</loc>
     <lastmod>2024-10-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -698,20 +698,6 @@
   
   <url>
     <loc>https://blog.btwoa.com/en/tags/Education-Pack/</loc>
-    <lastmod>2024-10-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.btwoa.com/en/tags/PHP/</loc>
-    <lastmod>2024-10-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.btwoa.com/en/tags/Comparison/</loc>
     <lastmod>2024-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -732,7 +718,14 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/en/tags/Plugins/</loc>
+    <loc>https://blog.btwoa.com/en/tags/PHP/</loc>
+    <lastmod>2024-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.btwoa.com/en/tags/Comparison/</loc>
     <lastmod>2024-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -761,6 +754,13 @@
   
   <url>
     <loc>https://blog.btwoa.com/en/tags/OpenWrt/</loc>
+    <lastmod>2024-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.btwoa.com/en/tags/Plugins/</loc>
     <lastmod>2024-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -830,13 +830,6 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/en/tags/Freenom/</loc>
-    <lastmod>2024-10-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.btwoa.com/en/tags/Cloudflare-CDN/</loc>
     <lastmod>2024-10-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -844,7 +837,7 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/en/tags/Python/</loc>
+    <loc>https://blog.btwoa.com/en/tags/Freenom/</loc>
     <lastmod>2024-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -859,6 +852,13 @@
   
   <url>
     <loc>https://blog.btwoa.com/en/tags/MongoDB/</loc>
+    <lastmod>2024-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.btwoa.com/en/tags/Python/</loc>
     <lastmod>2024-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1042,14 +1042,14 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/en/categories/Blog-Setup/</loc>
+    <loc>https://blog.btwoa.com/en/categories/Warning-Messages/</loc>
     <lastmod>2024-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/en/categories/Warning-Messages/</loc>
+    <loc>https://blog.btwoa.com/en/categories/Blog-Setup/</loc>
     <lastmod>2024-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1063,14 +1063,14 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/en/categories/Game-Guide/</loc>
+    <loc>https://blog.btwoa.com/en/categories/Knowledge-Summary/</loc>
     <lastmod>2024-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/en/categories/Knowledge-Summary/</loc>
+    <loc>https://blog.btwoa.com/en/categories/Game-Guide/</loc>
     <lastmod>2024-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1119,14 +1119,14 @@
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/en/categories/Free-Domain/</loc>
+    <loc>https://blog.btwoa.com/en/categories/Cloudflare/</loc>
     <lastmod>2024-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.btwoa.com/en/categories/Cloudflare/</loc>
+    <loc>https://blog.btwoa.com/en/categories/Free-Domain/</loc>
     <lastmod>2024-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
