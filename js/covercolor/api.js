@@ -1,1 +1,64 @@
-let coverColor=()=>{var e=PAGE_CONFIG.color;e?setThemeColors(e):(e=document.getElementById("post-cover")?.src)?handleApiColor(e):setDefaultThemeColors()};function handleApiColor(e){var o=JSON.parse(localStorage.getItem("Solitude"))||{};o.postcolor&&o.postcolor[e]?setThemeColors(o.postcolor[e].value):img2color(e)}function img2color(o){fetch(coverColorConfig.api+encodeURIComponent(o)).then(e=>e.json()).then(e=>{setThemeColors(e.RGB),cacheColor(o,e.RGB)}).catch(console.error)}function setThemeColors(e){var o,t,r;(e?([o,t,r]=e.match(/\w\w/g).map(e=>parseInt(e,16)),document.documentElement.style.setProperty("--ba-main",e),document.documentElement.style.setProperty("--ba-main-op",e+"23"),document.documentElement.style.setProperty("--ba-main-op-deep",e+"dd"),document.documentElement.style.setProperty("--ba-main-none",e+"00"),adjustBrightness(o,t,r),document.getElementById("coverdiv").classList.add("loaded"),initThemeColor):setDefaultThemeColors)()}function setDefaultThemeColors(){document.documentElement.style.setProperty("--ba-main","var(--ba-theme)"),document.documentElement.style.setProperty("--ba-main-op","var(--ba-theme-op)"),document.documentElement.style.setProperty("--ba-main-op-deep","var(--ba-theme-op-deep)"),document.documentElement.style.setProperty("--ba-main-none","var(--ba-theme-none)"),initThemeColor()}function cacheColor(e,o){var t=JSON.parse(localStorage.getItem("Solitude"))||{};t.postcolor=t.postcolor||{},t.postcolor[e]={value:o,expiration:Date.now()+coverColorConfig.time},localStorage.setItem("Solitude",JSON.stringify(t))}function adjustBrightness(e,o,t){Math.round((299*e+587*o+114*t)/1e3)<125&&([...document.getElementsByClassName("card-content")].forEach(e=>e.style.setProperty("--ba-card-bg","var(--ba-white)")),[...document.getElementsByClassName("author-info__sayhi")].forEach(e=>{e.style.setProperty("background","var(--ba-white-op)"),e.style.setProperty("color","var(--ba-white)")}))}
+const coverColor = () => {
+    const page_color = PAGE_CONFIG.color
+    if (page_color){
+        setThemeColors(page_color);
+        return;
+    }
+    const path = document.getElementById("post-cover")?.src;
+    path ? handleApiColor(path) : setDefaultThemeColors();
+}
+
+function handleApiColor(path) {
+    const cacheGroup = JSON.parse(localStorage.getItem('Solitude')) || {};
+    cacheGroup.postcolor && cacheGroup.postcolor[path] ? setThemeColors(cacheGroup.postcolor[path].value) : img2color(path);
+}
+
+function img2color(src) {
+    fetch(coverColorConfig.api + encodeURIComponent(src))
+        .then(response => response.json())
+        .then(data => {
+            setThemeColors(data.RGB);
+            cacheColor(src, data.RGB);
+        })
+        .catch(console.error);
+}
+
+function setThemeColors(value) {
+    if (value) {
+        const [r, g, b] = value.match(/\w\w/g).map(x => parseInt(x, 16));
+        document.documentElement.style.setProperty('--ba-main', value);
+        document.documentElement.style.setProperty('--ba-main-op', value + '23');
+        document.documentElement.style.setProperty('--ba-main-op-deep', value + 'dd');
+        document.documentElement.style.setProperty('--ba-main-none', value + '00');
+        adjustBrightness(r, g, b);
+        document.getElementById("coverdiv").classList.add("loaded");
+        initThemeColor();
+    } else {
+        setDefaultThemeColors();
+    }
+}
+
+function setDefaultThemeColors() {
+    document.documentElement.style.setProperty('--ba-main', 'var(--ba-theme)');
+    document.documentElement.style.setProperty('--ba-main-op', 'var(--ba-theme-op)');
+    document.documentElement.style.setProperty('--ba-main-op-deep', 'var(--ba-theme-op-deep)');
+    document.documentElement.style.setProperty('--ba-main-none', 'var(--ba-theme-none)');
+    initThemeColor();
+}
+
+function cacheColor(src, color) {
+    const cacheGroup = JSON.parse(localStorage.getItem('Solitude')) || {};
+    cacheGroup.postcolor = cacheGroup.postcolor || {};
+    cacheGroup.postcolor[src] = {value: color, expiration: Date.now() + coverColorConfig.time};
+    localStorage.setItem('Solitude', JSON.stringify(cacheGroup));
+}
+
+function adjustBrightness(r, g, b) {
+    if (Math.round(((r * 299) + (g * 587) + (b * 114)) / 1000) < 125) {
+        [...document.getElementsByClassName('card-content')].forEach(item => item.style.setProperty('--ba-card-bg', 'var(--ba-white)'));
+        [...document.getElementsByClassName('author-info__sayhi')].forEach(item => {
+            item.style.setProperty('background', 'var(--ba-white-op)');
+            item.style.setProperty('color', 'var(--ba-white)');
+        });
+    }
+}
