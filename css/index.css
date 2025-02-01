@@ -18491,6 +18491,7 @@ div#banners .bannerText {
   }
 }
 #post #pagination.pagination-post {
+  margin: 0 2rem 1rem;
   background: var(--ba-card-bg);
 }
 @media screen and (min-width: 768px) {
