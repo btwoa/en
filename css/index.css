@@ -11545,7 +11545,7 @@ span.tagsPageCount {
 .pastime .pastime-list .pastime_box {
   --w: calc(100% / 6 - 15px);
   width: var(--w);
-  aspect-ratio: 3/4;
+  aspect-ratio: 2/3;
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flex;
