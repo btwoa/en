@@ -2328,11 +2328,11 @@
 }
 @-moz-keyframes rowright {
   from {
-    -webkit-transform: translateX(-36%);
-    -moz-transform: translateX(-36%);
-    -o-transform: translateX(-36%);
-    -ms-transform: translateX(-36%);
-    transform: translateX(-36%);
+    -webkit-transform: translateX(-45%);
+    -moz-transform: translateX(-45%);
+    -o-transform: translateX(-45%);
+    -ms-transform: translateX(-45%);
+    transform: translateX(-45%);
   }
   to {
     -webkit-transform: translateX(0);
@@ -2344,11 +2344,11 @@
 }
 @-webkit-keyframes rowright {
   from {
-    -webkit-transform: translateX(-36%);
-    -moz-transform: translateX(-36%);
-    -o-transform: translateX(-36%);
-    -ms-transform: translateX(-36%);
-    transform: translateX(-36%);
+    -webkit-transform: translateX(-45%);
+    -moz-transform: translateX(-45%);
+    -o-transform: translateX(-45%);
+    -ms-transform: translateX(-45%);
+    transform: translateX(-45%);
   }
   to {
     -webkit-transform: translateX(0);
@@ -2360,11 +2360,11 @@
 }
 @-o-keyframes rowright {
   from {
-    -webkit-transform: translateX(-36%);
-    -moz-transform: translateX(-36%);
-    -o-transform: translateX(-36%);
-    -ms-transform: translateX(-36%);
-    transform: translateX(-36%);
+    -webkit-transform: translateX(-45%);
+    -moz-transform: translateX(-45%);
+    -o-transform: translateX(-45%);
+    -ms-transform: translateX(-45%);
+    transform: translateX(-45%);
   }
   to {
     -webkit-transform: translateX(0);
@@ -2376,11 +2376,11 @@
 }
 @keyframes rowright {
   from {
-    -webkit-transform: translateX(-36%);
-    -moz-transform: translateX(-36%);
-    -o-transform: translateX(-36%);
-    -ms-transform: translateX(-36%);
-    transform: translateX(-36%);
+    -webkit-transform: translateX(-45%);
+    -moz-transform: translateX(-45%);
+    -o-transform: translateX(-45%);
+    -ms-transform: translateX(-45%);
+    transform: translateX(-45%);
   }
   to {
     -webkit-transform: translateX(0);
@@ -14037,7 +14037,7 @@ img.rss-plan-icon {
   float: left;
   overflow: hidden;
   height: 90px;
-  line-height: 17px;
+  line-height: 15px;
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
   -o-transform: translateZ(0);
