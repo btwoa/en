@@ -402,7 +402,7 @@
   
   const CountdownTimer = (() => {
     const config = {
-        targetDate: "2025-12-25",
+        targetDate: "2026-12-25",
         targetName: "Christmas",
         units: {
             day: { text: "D", divider: 1, unit: "hours" },
