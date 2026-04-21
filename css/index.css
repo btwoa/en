@@ -8909,39 +8909,43 @@ span.tags-punctuation {
 }
 #pagination .pagination {
   text-align: center;
-}
-@media screen and (min-width: 768px) {
-  #pagination .pagination {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: box;
-    display: flex;
-    position: relative;
-    -webkit-box-pack: center;
-    -moz-box-pack: center;
-    -o-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-  }
+  position: relative;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -o-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  gap: 8px;
 }
 @media screen and (max-width: 768px) {
   #pagination .pagination {
+    background: var(--ba-background);
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -ms-transition: 0.3s;
+    transition: 0.3s;
     display: -webkit-box;
     display: -moz-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: box;
     display: flex;
+    margin-top: 0;
+    gap: 0.5rem;
   }
 }
 @media screen and (max-width: 768px) {
   #pagination .pagination .extend {
     width: 100%;
     height: 2.5rem;
-    margin: 0.2rem 0 1rem 0;
     border-radius: 12px;
     line-height: 2.5rem;
     background: var(--ba-card-bg);
@@ -8962,11 +8966,11 @@ span.tags-punctuation {
 }
 #pagination .page-number {
   display: inline-block;
-  margin: 0 0.2rem;
   min-width: 1.2rem;
   height: 1.2rem;
   text-align: center;
   line-height: 1.2rem;
+  cursor: pointer;
 }
 @media screen and (min-width: 768px) {
   #pagination .page-number {
@@ -8975,7 +8979,6 @@ span.tags-punctuation {
     height: 2rem;
     line-height: calc(2rem - 2px);
     border-radius: 99px !important;
-    margin: 0 0.3rem;
     -webkit-box-shadow: var(--ba-shadow-border);
     box-shadow: var(--ba-shadow-border);
     border: var(--style-border);
@@ -9063,10 +9066,8 @@ span.tags-punctuation {
   }
 }
 #pagination a.extend:hover {
-  color: var(--ba-theme);
-  border: var(--style-border-hover);
-  -webkit-box-shadow: var(--ba-shadow-main);
-  box-shadow: var(--ba-shadow-main);
+  background: var(--ba-theme);
+  color: var(--ba-white);
 }
 #pagination a.extend.next {
   right: 0;
@@ -9122,7 +9123,6 @@ span.tags-punctuation {
   display: box;
   display: flex;
   position: relative;
-  margin: 0 0.3rem;
 }
 @media screen and (max-width: 768px) {
   #pagination .toPageGroup {
