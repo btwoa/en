@@ -3551,12 +3551,6 @@ b,
 strong {
   color: var(--ba-lighttext);
 }
-b:hover,
-strong:hover {
-  color: var(--ba-white);
-  border-radius: 4px;
-  background: var(--ba-main);
-}
 .button--animated {
   border-radius: 8px;
   -webkit-transition: 0.3s;
@@ -18601,6 +18595,7 @@ div#banners .bannerText {
   --ba-theme: #086574;
   --ba-theme-op: rgba(8,101,116,0.137);
   --ba-theme-op-deep: rgba(8,101,116,0.867);
+  --ba-theme-op-light: rgba(8,101,116,0.051);
   --ba-theme-none: rgba(8,101,116,0);
   --ba-theme-inversion: #f79a8b;
   --ba-blue: #0084ff;
@@ -18652,7 +18647,7 @@ div#banners .bannerText {
   --ba-theme: #f79a8b;
   --ba-theme-op: rgba(247,154,139,0.137);
   --ba-theme-op-deep: rgba(247,154,139,0.867);
-  --ba-theme-op-light: rgba(66,89,239,0.051);
+  --ba-theme-op-light: rgba(247,154,139,0.051);
   --ba-theme-none: rgba(247,154,139,0);
   --ba-theme-inversion: #086574;
   --ba-blue: #425aef;
