@@ -227,7 +227,7 @@
   </url>
   
   <url>
-    <loc>https://mamama.ma/en/twikoo.json</loc>
+    <loc>https://mamama.ma/en/other.json</loc>
     
     <lastmod>2024-06-11</lastmod>
     
@@ -236,7 +236,7 @@
   </url>
   
   <url>
-    <loc>https://mamama.ma/en/other.json</loc>
+    <loc>https://mamama.ma/en/twikoo.json</loc>
     
     <lastmod>2024-06-11</lastmod>
     
@@ -687,14 +687,7 @@
   </url>
   
   <url>
-    <loc>https://mamama.ma/en/tags/BUUCTF/</loc>
-    <lastmod>2026-08-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://mamama.ma/en/tags/Writeup/</loc>
+    <loc>https://mamama.ma/en/tags/Regex/</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -715,21 +708,14 @@
   </url>
   
   <url>
-    <loc>https://mamama.ma/en/tags/Regex/</loc>
+    <loc>https://mamama.ma/en/tags/BUUCTF/</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://mamama.ma/en/tags/PHP/</loc>
-    <lastmod>2026-08-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://mamama.ma/en/tags/Comparison/</loc>
+    <loc>https://mamama.ma/en/tags/Writeup/</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -744,6 +730,20 @@
   
   <url>
     <loc>https://mamama.ma/en/tags/LeanCloud/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://mamama.ma/en/tags/PHP/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://mamama.ma/en/tags/Comparison/</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -834,14 +834,14 @@
   </url>
   
   <url>
-    <loc>https://mamama.ma/en/tags/Mail-ru/</loc>
+    <loc>https://mamama.ma/en/tags/Steam/</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://mamama.ma/en/tags/Steam/</loc>
+    <loc>https://mamama.ma/en/tags/Mail-ru/</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -862,6 +862,13 @@
   </url>
   
   <url>
+    <loc>https://mamama.ma/en/tags/Python/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://mamama.ma/en/tags/Qexo/</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -870,13 +877,6 @@
   
   <url>
     <loc>https://mamama.ma/en/tags/MongoDB/</loc>
-    <lastmod>2026-08-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://mamama.ma/en/tags/Python/</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1002,20 +1002,6 @@
   </url>
   
   <url>
-    <loc>https://mamama.ma/en/tags/face-to-many/</loc>
-    <lastmod>2026-08-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://mamama.ma/en/tags/Replicate/</loc>
-    <lastmod>2026-08-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://mamama.ma/en/tags/Solitude/</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -1037,6 +1023,20 @@
   </url>
   
   <url>
+    <loc>https://mamama.ma/en/tags/face-to-many/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://mamama.ma/en/tags/Replicate/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://mamama.ma/en/tags/Pixel-Watch/</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -1044,14 +1044,14 @@
   </url>
   
   <url>
-    <loc>https://mamama.ma/en/tags/Rock-Kingdom-World/</loc>
+    <loc>https://mamama.ma/en/tags/Fluent-Emoji/</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://mamama.ma/en/tags/Fluent-Emoji/</loc>
+    <loc>https://mamama.ma/en/tags/Rock-Kingdom-World/</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1123,14 +1123,14 @@
   </url>
   
   <url>
-    <loc>https://mamama.ma/en/categories/CTF/</loc>
+    <loc>https://mamama.ma/en/categories/License-Renewal/</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://mamama.ma/en/categories/License-Renewal/</loc>
+    <loc>https://mamama.ma/en/categories/CTF/</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1151,14 +1151,14 @@
   </url>
   
   <url>
-    <loc>https://mamama.ma/en/categories/Domain-Email/</loc>
+    <loc>https://mamama.ma/en/categories/Region-Change/</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://mamama.ma/en/categories/Region-Change/</loc>
+    <loc>https://mamama.ma/en/categories/Domain-Email/</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
